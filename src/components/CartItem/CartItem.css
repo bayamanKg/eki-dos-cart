@@ -1,0 +1,78 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #ececec;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+
+.card-info {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.card-info img {
+    width: 250px;
+    border-radius: 10px 0 0 10px;
+}
+
+.card-logic {
+    display: flex;
+    gap: 20px;
+}
+
+.remove {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+.card-count button{
+    padding: 10px;
+    border: none;
+  
+    cursor: pointer;
+}
+
+.minus {
+    background-color: red;
+    padding: 10px;
+    
+}
+
+.plus {
+    background-color: green;
+}
+
+@media (max-width:700px){
+    .card {
+        display: block;
+        
+        padding: 0;
+    }
+    .card-info{
+        display: block;
+    }
+    .card-info img {
+        width: 100%;
+        border-radius: 10px 10px 0 0 ;
+        
+    }
+    .card-text {
+        padding: 10px;
+    }
+    .card-logic{
+        padding: 0 10px;
+        padding-bottom: 20px;
+        justify-content: space-between;
+    }
+}

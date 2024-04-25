@@ -1,0 +1,18 @@
+.cart{
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:800px){
+    .cart{
+        padding-bottom: 400px;
+    }
+    .price {
+        margin-top: 50px;
+    }
+}

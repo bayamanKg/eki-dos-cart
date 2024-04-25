@@ -1,0 +1,33 @@
+.menu {
+    padding-bottom: 200px;
+}
+
+.menu-title {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.menu-tabs {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.menu-item {
+  
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+@media (max-width:900px){
+    .menu{
+        padding-bottom: 350px;
+    }
+   .menu-tabs{
+    flex-direction: column;
+   }
+}
+
+
